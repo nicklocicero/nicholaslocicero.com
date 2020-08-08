@@ -1,0 +1,45 @@
+body {
+    background-color: pink;
+}
+
+.r1 {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.push {
+    height: 200px;
+}
+
+.d1 {
+    border-radius: 15px;
+    width: 33%;
+    margin: 1%;
+}
+
+img {
+    width: 100%;
+}
+
+.back-colors {
+    background-color: white;
+    border-color: grey;
+}
+
+.the-font {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .the-font {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 600px) {
+    .the-font {
+        font-size: 48px;
+    }
+}
